@@ -17,6 +17,7 @@ watch(checkedPrefectures, (newPrefectures) => {
 
 <template>
   <div class="prefecture-container">
+    <h3>都道府県</h3>
     <div class="prefecture-flex">
       <div class="flex flex-col">
         <PrefectureCheck
@@ -38,6 +39,7 @@ watch(checkedPrefectures, (newPrefectures) => {
   max-width: 900px;
   width: 100%;
 }
+
 .prefecture-flex {
   display: grid;
   grid-template-columns: 33% 33% 33%;
